@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuytravelling</title>
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="frontend/styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800|Montserrat:400,500,600,700,800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <a class="navbar-brand" href="#">
+                <img src="frontend/images/Kuytravelling.png" alt="kuytravelling">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto mr-3">
+                <li class="nav-item active mx-md-2">
+                  <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mx-md-2">
+                  <a class="nav-link" href="#">Explore</a>
+                </li>
+                <li class="nav-item mx-md-2">
+                  <a class="nav-link" href="#">Gallery</a>
+                </li>
+                <li class="nav-item mx-md-2">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+              </ul>
+                 <!-- Mobile Button -->
+                 <form class="form-inline d-sm-none d-md-none">
+                  <button class="btn btn-login my-2 my-sm-0">
+                    Sign In
+                  </button>
+                </form>
+
+                <!-- Desktop Button -->
+                <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+                  <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                    Sign In
+                  </button>
+                </form>
+            </div>
+          </nav>
+    </div>
+
+  <!-- Header -->
+    <header class="bookatrip">
+      <div class="container">
+      <h1>
+        Explore Indonesia 
+      </br>
+        With Us
+      </h1>
+      <a href="#" class="btn btn-get-started px-4 mt-4">
+        Book A Trip
+      </a>
+    </div>
+    </header>
+
+    <!-- Statisik -->
+    <main>
+    <div class="container">
+      <section class="section-stats row justify-content-center" id="stats">
+        <div class="col-3 col-md-2 stats-detail">
+          <h2>20k</h2>
+          <p>Members</p>
+        </div>
+        <div class="col-3 col-md-2 stats-detail">
+          <h2>12</h2>
+          <p>Countries</p>
+        </div>
+        <div class="col-3 col-md-2 stats-detail">
+          <h2>3k</h2>
+          <p>Hotels</p>
+        </div>
+        <div class="col-3 col-md-2 stats-detail">
+          <h2>72</h2>
+          <p>Partners</p>
+        </div>
+      </section>
+      </div>
+
+  <!-- Popular -->
+   <section class="card-popular" id="popular">
+     <div class="container">
+        <div class="row">
+          <div class="col-lg content-destination text-center mt-5">
+            <h2>Popular Destination</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-popular-content" id="popularContent">
+      <div class="container">
+        <div class="section-popular-travel row justify-content-center mt-3">
+          <div class="col-lg-4 col-md-6 mx-auto">
+            <div class="card-travel text-center d-flex flex-column mx-auto" style="background-image: url('frontend/images/borobudur.jpg');">
+              <div class="travel-country">
+                Borobudur
+              </div>
+              <div class="travel-place">
+                Indonesia
+              </div>
+              <div class="travel-btn mt-5">
+                <a href="details.html" class="btn btn-travel-details px-4">
+                  VIEW DETAILS
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mx-auto">
+            <div class="card-travel text-center d-flex flex-column mx-auto" style="background-image: url('frontend/images/bali.jpg');">
+              <div class="travel-country">
+                Bali
+              </div>
+              <div class="travel-place">
+                Indonesia
+              </div>
+              <div class="travel-btn mt-5">
+                <a href="#" class="btn btn-travel-details px-4">
+                  VIEW DETAILS
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mx-auto">
+            <div class="card-travel text-center d-flex flex-column mx-auto" style="background-image: url('frontend/images/bromo.jpg');">
+              <div class="travel-country">
+                Bromo
+              </div>
+              <div class="travel-place">
+                Indonesia
+              </div>
+              <div class="travel-btn mt-5">
+                <a href="#" class="btn btn-travel-details px-4">
+                  VIEW DETAILS
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+  <!-- Special Offers -->
+  <section class="special-offers" id="offers">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg content-special-offers text-center mt-5">
+          <h2>Special Offers</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="card-special-offers" id="specialOffers">
+    <div class="container">
+      <div class="row section-special-offers justify-content-center mt-3">
+        <div class="col-lg-4 col-md-6 mx-auto">
+          <div class="special-card-offers text-center d-flex flex-column mx-auto" style="background-image: url('frontend/images/Jakarta.png');">
+            <div class="travel-city">
+              <p>Jakarta</p>
+            </div>
+            <div class="travel-price">
+              <h3>Start From</h3>
+              <p>$200</p>
+            </div>
+            <div class="travel-btn-offers">
+              <a href="#" class="btn btn-travel-offers">
+                Details
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mx-auto">
+          <div class="special-card-offers text-center d-flex flex-column mx-auto" style="background-image: url('frontend/images/Rajaampat.png');">
+            <div class="travel-city">
+              <p>Raja Ampat</p>
+            </div>
+            <div class="travel-price">
+              <h3>Start From</h3>
+              <p>$5000</p>
+            </div>
+            <div class="travel-btn-offers">
+              <a href="#" class="btn btn-travel-offers">
+                Details
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mx-auto">
+          <div class="special-card-offers text-center d-flex flex-column mx-auto" style="background-image: url('frontend/images/Prambanan.png');">
+            <div class="travel-city">
+              <p>Prambanan</p>
+            </div>
+            <div class="travel-price">
+              <h3>Start From</h3>
+              <p>$700</p>
+            </div>
+            <div class="travel-btn-offers">
+              <a href="#" class="btn btn-travel-offers">
+                Details
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial -->
+<section class="testimonial">
+  <div class="container">
+    <div class="row section-testimonial text-center mt-5">
+      <div class="col">
+        <h2>Testimonial</h2>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section-card-testimonial">
+  <div class="container">
+    <div class="row justify-content-center mx-auto">
+      <div class="col-lg-6 mx-auto">
+        <div class="card card-testimonial text-center mt-5">
+          <div class="testimonial-content mt-4">
+            <img src="frontend/images/Marry.jpg" alt="user" style="mb-4 rounded-circle">
+            <h3 class="mt-3">Marry Diana</h3>
+            <p class="testimonial">
+              The Best Travel Website !
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 mx-auto">
+        <div class="card card-testimonial text-center mt-5">
+          <div class="testimonial-content mt-4">
+            <img src="frontend/images/Jhon.jpg" alt="user" style="mb-4 rounded-circle">
+            <h3 class="mt-3">Jhon Pablo</h3>
+            <p class="testimonial">
+              Thank u for an incredible trip
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Payments -->
+<section class="payments">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Payments</h3>
+        <p>The Easy Way To Pay</p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="frontend/images/payments.png" alt="payments" width="500" class="imgPartner">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- Footer -->
+<footer class="section-footer border-top mt-5 mb-5">
+  <div class="container"> 
+      <div class="col-12">
+        <div class="row mt-5 justify-content-center">
+          <div class="col-lg-3">
+            <h5>FEATURES</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Reviews</a></li>
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Social Media Kit</a></li>
+              <li><a href="#">Affiliate</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h5>ACCOUNT</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Refund</a></li>
+              <li><a href="#">Security</a></li>
+              <li><a href="#">Reward</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h5>COMPANY</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Career</a></li>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Media</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h5>OFFICE</h5>
+            <div class="alamat">
+              <p>Jakarta Selatan</p>
+              <p>Indonesia</p>
+              <p>089673751894</p>
+              <p>anurhansyah@gmail.com</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="contianer-fluid">
+    <div class="border-top">
+        <div class="col-12 text-center mt-3">
+          <p>Copyright 2020-2021 - Ari Nurhansah</p>
+        </div>
+      </div>
+  </div>
+</footer>
+
+
+    <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,375 @@
+body {
+  background-color: white;
+  font-family: "Assistant", sans-serif;
+  color: #000000;
+}
+
+.navbar-brand img {
+  max-height: 25px;
+}
+
+.navbar-light {
+  font-size: 18px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #000000;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #000000 !important;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0px;
+  font-weight: bold;
+}
+
+.btn-login {
+  background-color: #FF0202;
+  color: white;
+  width: 150px;
+  font-size: 18px;
+}
+.btn-login:hover {
+  background-color: #FA6060;
+  color: #ffffff;
+}
+
+header {
+  padding: 130px 0 165px;
+  margin-top: -70px;
+  background-image: url("../images/Group 15.jpg");
+  background-size: cover;
+  background-position: center;
+}
+header h1 {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+}
+header .btn-get-started {
+  background-color: #FF0202;
+  color: white;
+  border-radius: 0px;
+}
+header .btn-get-started:hover {
+  background-color: #FA6060;
+  color: #ffffff;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+.section-stats .stats-detail {
+  min-width: 120px;
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.section-stats .stats-detail p {
+  font-weight: lighter;
+}
+
+/* Popular Card */
+.card-popular .content-destination h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.section-popular-content .section-popular-travel {
+  min-height: 350px;
+}
+.section-popular-content .section-popular-travel .card-travel {
+  margin: 30px;
+  width: 310px;
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 250px;
+  background-size: cover;
+}
+.section-popular-content .section-popular-travel .travel-country {
+  font-size: 20px;
+  margin-top: 100px;
+}
+.section-popular-content .section-popular-travel .travel-place {
+  font-size: 15px;
+  font-weight: bold;
+}
+.section-popular-content .section-popular-travel .travel-btn .btn-travel-details {
+  margin-bottom: -70px;
+  background-color: #FF0202;
+  color: white;
+  border-radius: 0px;
+}
+.section-popular-content .section-popular-travel .travel-btn .btn-travel-details:hover {
+  background-color: #FA6060;
+  color: #ffffff;
+}
+
+/* Special Offers */
+.special-offers .content-special-offers h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.card-special-offers .section-special-offers {
+  min-height: 450px;
+}
+.card-special-offers .section-special-offers .special-card-offers {
+  margin: 30px;
+  width: 280px;
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 350px;
+  background-size: cover;
+}
+.card-special-offers .section-special-offers .travel-city {
+  font-family: "Montserrat", sans-serif;
+  font-size: 27px;
+  font-weight: normal;
+  margin-top: 15px;
+}
+.card-special-offers .section-special-offers .travel-price {
+  margin-top: 180px;
+}
+.card-special-offers .section-special-offers .travel-price h3 {
+  font-weight: lighter;
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+}
+.card-special-offers .section-special-offers .travel-price p {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.card-special-offers .section-special-offers .travel-btn-offers .btn-travel-offers {
+  margin-bottom: -20px;
+  background-color: #FF0202;
+  color: white;
+  border-radius: 0px;
+}
+.card-special-offers .section-special-offers .travel-btn-offers .btn-travel-offers:hover {
+  background-color: #FA6060;
+  color: #ffffff;
+}
+
+/*Testimonial*/
+.testimonial .section-testimonial h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.section-card-testimonial {
+  min-height: 400px;
+}
+.section-card-testimonial .card-testimonial .testimonial-content {
+  min-height: 270px;
+}
+.section-card-testimonial .card-testimonial .testimonial-content img {
+  max-width: 100%;
+}
+.section-card-testimonial .card-testimonial .testimonial-content h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.section-card-testimonial .card-testimonial .testimonial-content p {
+  font-size: 15px;
+}
+
+/*Payments*/
+.payments {
+  min-height: 150px;
+  background-color: white;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.payments h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.payments img {
+  max-width: 100%;
+}
+
+/*Footer*/
+.section-footer h5 {
+  font-weight: bold;
+}
+.section-footer a {
+  color: black;
+}
+
+/*details*/
+.section-details-header {
+  min-height: 310px;
+  background: #e4e6eb;
+  margin-top: -70px;
+}
+
+.details-content {
+  margin-top: -220px;
+  min-height: 100vh;
+}
+.details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+}
+.details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #000000;
+}
+.details-content .card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+.details-content h1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+.details-content h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.details-content p {
+  font-size: 17px;
+}
+.details-content .features h3 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.details-content .features p {
+  margin-bottom: 0;
+}
+.details-content .features .description {
+  margin-left: 10px;
+  float: left;
+  overflow: hidden;
+}
+.details-content .features .features-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.gallery .xzoom-container {
+  display: block;
+}
+.gallery .xzoom-container .xzoom {
+  width: 100%;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+.gallery .xzoom-container .xactive {
+  border: 10x solid #000000;
+  box-shadow: none;
+}
+
+.card-member {
+  padding: 30px;
+  border-radius: 11px;
+}
+
+.card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+}
+
+.members .member-image {
+  width: 40px;
+  height: 40px;
+}
+
+.information h2 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.text-total .text-blue {
+  font-weight: bold;
+}
+.text-total .text-orange {
+  color: #FF0202;
+  font-weight: bold;
+}
+
+.bank .bank-item h3 {
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 0;
+}
+.bank .bank-item p {
+  margin-bottom: 0;
+}
+.bank .bank-image {
+  width: 45px;
+  height: 45px;
+}
+.bank .bank-description {
+  margin-left: 60px;
+  overflow: hidden;
+}
+
+.btn-add-now {
+  background-color: #FF0202;
+  color: white;
+  border-radius: 0px;
+  height: 37px;
+}
+.btn-add-now:hover {
+  background-color: #FA6060;
+  color: #ffffff;
+}
+
+.notes h3 {
+  font-size: 17px;
+  font-weight: bold;
+}
+.notes p {
+  font-size: 15px;
+}
+
+.join-container {
+  margin-top: -16px;
+}
+.join-container .btn-join-now {
+  background-color: #FF0202;
+  color: white;
+  border-radius: 0px;
+}
+.join-container .btn-join-now:hover {
+  background-color: #FA6060;
+  color: #ffffff;
+}
+
+.section-success {
+  height: 90vh;
+}
+.section-success .content-text h3 {
+  font-weight: 600;
+}
+.section-success .content-text p {
+  font-weight: 300;
+}
+.section-success .btn-success {
+  background-color: #FF0202;
+  color: white;
+  border-radius: 0px;
+}
+.section-success .btn-success:hover {
+  background-color: #FA6060;
+  color: #ffffff;
+}
